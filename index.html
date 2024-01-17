@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Rocket Money</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<!-- Font Google -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg">
+  <div class="container"> <a class="navbar-brand navbar-logo" href="#"> <img src="images/logo.png" alt="logo" class="logo-1"> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="fas fa-bars"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"> <a class="nav-link" href="" data-scroll-nav="0">Accueil</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="2">Fonctionnalités</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="3">Staff</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="4">Avis</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="5">Faq</a> </li>
+        <li class="nav-item"> <a class="nav-link" href="#" data-scroll-nav="6">Contact</a> </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="banner" data-scroll-index='0'>
+  <div class="banner-overlay">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-12">
+          <div class="banner-text">
+            <h2 class="white">Rocket Money </h2>
+            <h6 class="white">La nouvelle application qui permet de faire du trading facilement et sans risque</a>.</h6>
+            <p class="banner-text white">DISPONIBLE MAINTENANT SUR TOUS LES STORES</p>
+            <ul>
+              <li><a href="#"><img src="images/applestore.png" class="wow fadeInUp" data-wow-delay="0.4s"/></a></li>
+              <li><a href="#"><img src="images/googleplay.png" class="wow fadeInUp" data-wow-delay="0.7s"/></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-12"> <img src="images/iphone-screen.png" class="img-fluid wow fadeInUp"/> </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<section class="about section-padding prelative" data-scroll-index='1'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="icon-box wow fadeInUp" data-wow-delay="0.2s"> <i class="fa fa-life-ring" aria-hidden="true"></i>
+                <h5>Support</h5>
+                <p>Du lundi au vendredi de 9h à 18h par mail ou télephone</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="icon-box wow fadeInUp" data-wow-delay="0.4s"> <i class="fa fa-mobile" aria-hidden="true"></i>
+                <h5>Disponible sur toutes les plateformes</h5>
+                <p>App Store, Google Play</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="icon-box wow fadeInUp" data-wow-delay="0.6s"> <i class="fa fa-bolt" aria-hidden="true"></i>
+                <h5>Expert ultra réactif</h5>
+                <p>Notre équipe est là pour vous et répondre à vos besoins d'investissements</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="video-section prelative text-center white">
+  <div class="section-padding video-overlay">
+    <div class="container">
+      <h3>Vidéo de Présentation</h3>
+      <i class="fa fa-play" id="video-icon" aria-hidden="true"></i>
+      <div class="video-popup">
+        <div class="video-src">
+          <div class="iframe-src">
+            <iframe src="https://www.youtube.com/embed/jZ4ZK7SkjCs?si=WDaWoglJDp0YvqZB&amp;controls=0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="feature section-padding" data-scroll-index='2'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>Fonctionnalités</h3>
+          <span class="line"></span>
+        </div>
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-4 col-sm-12">
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
+                <div class="media-body text-right media-right-margin">
+                  <h5>Achat/Vente d'actions sur les principaux marchés européens</h5>
+                </div>
+                <div class="media-right icon-border"> <span class="fa fa-dollar-sign" aria-hidden="true"></span> </div>
+              </div>
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
+                <div class="media-body text-right media-right-margin">
+                  <h5>Achat/Vente Crypto-Monnaies</h5>
+                </div>
+                <div class="media-right icon-border"> <span class="fa fa-check-double" aria-hidden="true"></span> </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-none d-md-block d-lg-block">
+              <div class="feature-mobile"> <img src="images/iphone-screen-with-shadow.png" class="img-fluid wow fadeInUp"/> </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
+                <div class="media-left icon-border media-right-margin"> <span class="fa fa-mobile" aria-hidden="true"></span> </div>
+                <div class="media-body text-left">
+                  <h5>Actualité du marché boursier</h5>
+                </div>
+              </div> 
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
+                <div class="media-left icon-border media-right-margin"> <span class="fa fa-bolt" aria-hidden="true"></span> </div>
+                <div class="media-body text-left">
+                  <h5>Analyse en temps réel du marché par des experts en trading</h5>
+                </div>
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="team section-padding" data-scroll-index='3'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>Staff</h3>
+          <span class="line"></span>
+        </div>
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/user1.jpg" class="img-fluid"/>
+                <h4>Emma Daumas</h4>
+                <p>Experte en Crypto-monnaies</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-detail wow bounce" data-wow-delay="0.4s"> <img src="images/user2.jpg" class="img-fluid"/>
+                <h4>Baptiste Loster</h4>
+                <p>Fondateur/PDG</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-detail wow bounce" data-wow-delay="0.6s"> <img src="images/user3.jpg" class="img-fluid"/>
+                <h4>Jean-François Lespine</h4>
+                <p>Trader Senior</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="testimonial section-padding" data-scroll-index='4'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center white">
+          <h3>Avis</h3>
+          <span class="line"></span>
+          <p class="white">Ils nous ont fait confiance ! Satisfaction garantie sur Rocket Money !</p>
+        </div>
+    
+      <div class="section-content">
+        <div class="row">
+          <div class="offset-md-2 col-md-8 col-sm-12">
+            <div class="slider">
+              <div class="slider-item">
+                <div class="test-img"><img src="images/user4.png" alt="Placeholder" width="157" height="157"></div>
+                <div class="test-text"><span class="title"><span>Celine Amar</span></span> L'application est super intuitive, l'inscription est rapide et les conseils des experts sont très intéressant.</div>
+              </div>
+              <div class="slider-item">
+                <div class="test-img"><img src="images/user5.png" alt="Placeholder" width="157" height="157"></div>
+                <div class="test-text"><span class="title"><span>Kevin Porte</span></span> Rien à redire, les frais de trading sont nettement moins élevé que chez les concurrents et le fait de pouvoir accès à l'achat d'action et de crypto-monnaies facilement est appréciable.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="faq section-padding prelative" data-scroll-index='5'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>FAQ</h3>
+          <span class="line"></span>
+        </div>
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
+              <h4>Qui sommes-nous ?</h4>
+              <p>Rockey Money est une plateforme en ligne permettant d'acheter et de vendre des actions, ainsi que des crypto-monnaies. Elle offre aux utilisateurs un accès facile et sécurisé aux marchés financiers.</p>
+            </div>
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
+              <h4>Comment puis-je acheter des actions ou des crypto-monnaies sur Rocket Money ?</h4>
+              <p>Pour acheter, connectez-vous à votre compte, accédez à la section "Trading", choisissez l'instrument financier souhaité (action ou crypto-monnaie), spécifiez la quantité et confirmez votre ordre.</p>
+            </div>
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s">
+              <h4>Comment puis-je retirer mes fonds de mon compte ?</h4>
+              <p>Pour retirer des fonds, allez dans la section "Retrait" de votre compte, choisissez la méthode de retrait préférée et suivez les instructions.</p>
+            </div>
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.4s">
+              <h4>Comment Rocket Money assure-t-elle la sécurité de mes informations et de mes fonds ?</h4>
+              <p>Rocket Money utilise des protocoles de sécurité avancés, tels que le cryptage SSL, pour protéger vos informations. De plus, les fonds des utilisateurs sont stockés dans des comptes sécurisés.</p>
+            </div>
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.4s">
+              <h4>Quelles mesures de sécurité dois-je prendre pour protéger mon compte ?</h4>
+              <p>Nous vous recommandons d'utiliser une authentification à deux facteurs (2FA), de choisir un mot de passe fort, et de ne jamais partager vos informations de connexion.</p>
+            </div>
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s">
+              <h4>Comment puis-je contacter le support client de Rocket Money ?</h4>
+              <p>Notre équipe de support est disponible via la section "Contact" de votre compte. Vous pouvez également nous contacter par e-mail à marozzabastien@gmail.com ou par téléphone au 0150453089.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="contact section-padding" data-scroll-index='6'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3>Contactez-nous</h3>
+          <span class="line"></span>
+          <p>Si vous avez besoin d'informations ou vous avez un problème avec l'application, merci d'utiliser ce formulaire ou nous contacter par téléphone.</p>
+        </div>
+        <div class="section-content">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-8">
+              <form id="contact_form" action="">
+                <div class="row">
+                  <div class="col">
+                    <input type="text" id="your_name" class="form-input w-100" name="full-name" placeholder="Nom Complet" required>
+                  </div>
+                  <div class="col">
+                    <input type="email" id="email" class="form-input w-100" name="email" placeholder="E-Mail" required>
+                  </div>
+                </div>
+                <input type="text" id="subject" class="form-input w-100" name="subject" placeholder="Objet">
+                <textarea class="form-input w-100" id="message" placeholder="Message" name="message"></textarea>
+                <button class="btn-grad w-100 text-uppercase" type="submit" name="button">Envoyer</button>
+              </form>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+              <div class="contact-info white">
+                <div class="contact-item media"> <i class="fa fa-map-marker-alt media-left media-right-margin"></i>
+                  <div class="media-body">
+                    <p class="text-uppercase">Adresse</p>
+                    <p class="text-uppercase">1 rue des Trois Frères, 75018 Paris</p>
+                  </div>
+                </div>
+                <div class="contact-item media"> <i class="fa fa-mobile media-left media-right-margin"></i>
+                  <div class="media-body">
+                    <p class="text-uppercase">Tél</p>
+                    <p class="text-uppercase"><a class="text-white">0150453089</a> </p>
+                  </div>
+                </div>
+                <div class="contact-item media"> <i class="fa fa-envelope media-left media-right-margin"></i>
+                  <div class="media-body">
+                    <p class="text-uppercase">E-Mail</p>
+                    <p class="text-uppercase"><a class="text-white" href="mailto:marozzabastien@gmail.com">marozzabastien@gmail.com</a> </p>
+                  </div>
+                </div>
+                <div class="contact-item media"> <i class="fa fa-clock media-left media-right-margin"></i>
+                  <div class="media-body">
+                    <p class="text-uppercase">Horaires</p>
+                    <p class="text-uppercase">LUN - VEN 9h à 18h</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="download section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center white">
+          <h3>Télécharger l'application</h3>
+          <span class="line"></span>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="section-content text-center">
+          <ul>
+            <li><a href="#"><img src="images/applestore.png" /></a></li>
+            <li><a href="#"><img src="images/googleplay.png" /></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer-copy">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <p>2024 &copy; Rocket Money. Site crée par Bastien MAROZZA.</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> 
+<!-- scrollIt js --> 
+<script src="js/scrollIt.min.js"></script> 
+<script src="js/wow.min.js"></script> 
+<script>
+	wow = new WOW();
+	wow.init();
+$(document).ready(function(e) {
+
+	$('#video-icon').on('click',function(e){
+	e.preventDefault();
+	$('.video-popup').css('display','flex');
+	$('.iframe-src').slideDown();
+	});
+	$('.video-popup').on('click',function(e){
+	var $target = e.target.nodeName;
+	var video_src = $(this).find('iframe').attr('src');
+	if($target != 'IFRAME'){
+	$('.video-popup').fadeOut();
+	$('.iframe-src').slideUp();
+	$('.video-popup iframe').attr('src'," ");
+	$('.video-popup iframe').attr('src',video_src);
+	}
+	});
+
+	$('.slider').bxSlider({
+	pager: false
+	});
+});
+    
+$(window).on("scroll",function () {
+
+	var bodyScroll = $(window).scrollTop(),
+	navbar = $(".navbar");
+	
+	if(bodyScroll > 50){
+	$('.navbar-logo img').attr('src','images/logo.png');
+	navbar.addClass("nav-scroll");
+
+}else{
+	$('.navbar-logo img').attr('src','images/logo.png');
+	navbar.removeClass("nav-scroll");
+}
+
+});
+$(window).on("load",function (){
+	var bodyScroll = $(window).scrollTop(),
+	navbar = $(".navbar");
+	
+	if(bodyScroll > 50){
+	$('.navbar-logo img').attr('src','images/logo-black.png');
+	navbar.addClass("nav-scroll");
+	}else{
+	$('.navbar-logo img').attr('src','images/logo-white.png');
+	navbar.removeClass("nav-scroll");
+	}
+
+	$.scrollIt({
+	
+	easing: 'swing',     
+	scrollTime: 900,       
+	activeClass: 'active', 
+	onPageChange: null,    
+	topOffset: -63
+	});
+});
+
+</script>
+</body>
+</html>
